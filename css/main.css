@@ -29,6 +29,11 @@ h2 {
 	font-size: 24px;
 }
 
+h3 {
+	font-size: 18px;
+	font-weight: 100;
+}
+
 
 p {
 	margin: 0 0 15px 0;
@@ -134,21 +139,21 @@ a {
 	background:#fff;
 	color:#3d3d3d;
 	padding: 50px 0;
-	height: 300px;
+	height: 150px;
 	
 }
 
 .s1 {
 	background:#184764;
 	color:#fff;
-	height: 300px;
+	height: 230px;
 	
 }
 
 
 .s2 {
 	background: #313131;
-	height: 1300px;
+	height: 1200px;
 }
 .s2 a {
 	color: #fff;
@@ -162,7 +167,7 @@ a {
 
 .s4 {
 	background: #5aa3c4;
-	height: 400px;
+	height: 300px;
 }
 
 
@@ -170,17 +175,17 @@ a {
 .s5 {
 	background: #bce1f1;
 	color: #3d3d3d;
-	height: 1300px;
+	height: 1100px;
 }
 
 .s6 {
 	background: #161616;
-	height: 400px;
+	height: 450px;
 }
 
 .s7 {
 	background: #1b83b3;
-	height: 400px;
+	height: 300px;
 }
 
 
