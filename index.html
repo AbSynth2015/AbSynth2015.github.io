@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Abstraction and Synthesis of Correct-by-Construction Robotics Software: Reuniting Formal Methods with
-Model-Driven Software Engineering.</title>
+<title>AbSynth 2015: Abstraction and Synthesis of Correct-by-Construction Robotics Software</title>
 
 <meta name = "keywords" content = "Robotics Science and Systems, Workshop, Formal Verification, Model-driven Software Engineering" />
-<meta name = "description" content = "Webpage for workshop on: Abstraction and Synthesis of Correct-by-Construction Robotics Software: Reuniting Formal Methods with
+<meta name = "description" content = "Webpage for RSS 2015 Workshop on Abstraction and Synthesis of Correct-by-Construction Robotics Software: Reuniting Formal Methods with
 Model-Driven Software Engineering" />
 <meta name="viewport" content="width=device-width">
 
@@ -34,54 +33,41 @@ $(document).ready( function() {
 	<div class="section sTop">
 		<div class="inner">
 			<h1 class="title">AbSynth 2015</h1>
-			<h2 class="subtitle">Abstraction and Synthesis of Correct-by-Construction Robotics Software: Reuniting Formal Methods with
-Model-Driven Software Engineering</h2>
-			<h3 class="title">Workshop at the 2015 Robotics Science and Systems Conference</h3>
+			<h2 class="subtitle">Abstraction and Synthesis of Correct-by-Construction Robotics Software: Reuniting Formal Methods with Model-Driven Software Engineering.</h2>
 		</div>
 	</div>
 
 	<div class="subMenu" >
 	 	<div class="inner">
 	 		<a href="#sTop" class="subNavBtn">Home</a>
-	 		<a href="#s1" class="subNavBtn">Description</a> 
-			<a href="#s2" class="subNavBtn">Committee</a>
-			<a href="#s3" class="subNavBtn">Speakers</a>
-			<a href="#s4" class="subNavBtn">Schedule</a>
-			<a href="#s5" class="subNavBtn">Submissions</a>
-			<a href="#s5" class="subNavBtn">Organizers</a>
+			<a href="submissions.html" class="subNavBtn">Submissions</a>
+			<a href="speakers.html" class="subNavBtn">Invited Speakers</a>
+			<a href="dates.html" class="subNavBtn">Important Dates</a>
+			<a href="schedule.html" class="subNavBtn">Program</a>
+			<a href="previous.html" class="subNavBtn">Past Events</a>
 		</div>
 	</div>
-
-	<div class="section s1">
+	<div class="section1 s1">
 		<div class="inner ">
-			<p></p>
-			<h1>Home</h1>
-			<p style="text-align:justify">This two-day workshop is to be held within <a href="https://www.roboticsconference.org/" style="color: rgb(0,255,0);text-decoration: none"><font color="FF00CC"> Robotics, Science and Systems Conference-2015</font></a> with regard to Formal Methods (FM) and Model-Driven Software Engineering (MDSE). It has broadly three aims: presenting state-of-the-art tools and techniques in both fields especially with respect to robotics, fostering closer collaboration between researchers of these fields and finally identifying the challenges that lie ahead in not only bridging the gap but also their application in robotics.</p>
-			
+		  <p></p>
+		  AbSynth 2015 is a two-day workshop to be held in conjunction with the <a href = "http://www.roboticsconference.org/",style="color: rgb(0,255,0);text-decoration: none"><font color="FF0066">2015 Robotics Science and Systems (RSS) conference</font></a> in Rome, Italy on July 16-17, 2015.
+		  <p></p>
+		The increasing use of automation in safety- and mission-critical situations encourages the development of
+theories and techniques that can provide formal guarantees on the performance of the system. Model-Driven
+Software Engineering (MDSE) and Formal Methods (FM) are closely related in that that they both seek
+abstractions that preserve the important properties of the underlying concrete system, as well as provide
+		  rigorous methods for system design to ensure desirable behavior with respect to complex specifications.
+		  However, much like the divergence of classical AI and Robotics into separate fields concerned with high-level and low-level details of the same systems (i.e. robots), FM and MDSE have diverged. MDSE research in robotics is aligned with the primary goal of creating quality low-level software for robotic systems, while formal methods apply chiefly to the design and validation of systems at a high-level of abstraction. It is clear, however, that the two are complimentary, and that a reunification is overdue. Quality, reliable software for robotic systems created using MDSE will facilitate the abstraction and modeling of robotic systems, which further promotes the adoption of FM in constructing robotic systems with a high degree of autonomy.
+		
 		</div>
 	</div>
 
-	<div class="section s2">
-		<div class="inner">
-			<p></p>
-			<h1>Description</h1>
-			<p style="text-align:justify">The increasing use of automation in safety- and mission-critical situations encourages the development of theories and techniques for providing formal guarantees on performance. Model-Driven Software Engineering (MDSE) and Formal Methods (FM) are closely related in the sense that they both seek abstractions that preserve the important properties of the underlying concrete system, and provide rigorous methods for system design to ensure desirable behavior with respect to complex specifications.</p>
-<p></p>
-			<p style="text-align:justify">Much like the divergence of classical AI and Robotics into separate fields concerned with high-level and low-level details of the same systems (i.e. robots), FM and MDSE have diverged. MDSE research in robotics is aligned with the primary goal of creating quality low-level software for robotic systems, while formal methods apply chiefly to the design and validation of systems at a high-level of abstraction. It is clear, however, that the two are complimentary. In MDSE, once a suitable model or equivalent specification is found, correct-by-design code is assumed to be generated using model transformations. FM, originally developed to support software verification and design, provides a basis for the synthesis of such provably correct programs. In turn, MDSE can promote FM adoption by providing good abstractions.</p>		
-	<p></p>
-			<h2>Formal Methods</h2>
-			<p style="text-align:justify">Formal Methods refers broadly to a set of tools and techniques for automatic, principled synthesis and verification of systems that satisfy well-specified properties. They provide a rich class of logics to describe complextasks and theoretically sound methods for ensuring provably correct behavior for autonomous robotic systems. Such systems and applications, however, pose unique challenges for formal verification and synthesis. The hybrid, real-time natures of robotic systems motivates the development of logic languages and synthesis methods for real-time systems. The complex dynamics of robotic systems and multi-robot systems prompt the extension of hierarchical and compositional synthesis in FM to large-scale robotic systems. Other factors that need to be addressed in employing FM for control design include, but are not limited to, the incompleteness and uncertainty in robot's sensing and actuation modularities, as well as partial knowledge in the dynamics of the system and its environment.</p>
-			<p></p>
-			<h2>Model-Driven Software Engineering</h2>
-			<p style="text-align:justify">Model-Driven Software Engineering helps the domain experts shift their focus from implementation to the problem space. A typical MDSE approach starts by designing abstract models that conform to meta-level models or Domain-Specific Languages (DSL). The models undergo a series of Model to Model transformations (M2M) to reduce the abstraction levels by gradually including platform-specific details and finally, by applying Model to Text transformation (M2T) to generate executable code. The current approaches provides several DSLs, best practices, architectural patterns and guidelines for robotic system architects and designers. However, the real advantage of model-driven development is not the formal modeling nor the code generation, but the ability to perform abstract reasoning and analysis using different viewpoints and cross-cutting concerns, which is not effectively addressed in the current body of work.</p>
-<p></p>
-
-			<h2>Need for reunification</h2>
-			<p style="text-align:justify">Currently, MDSE and Formal Methods are progressing as two different axes of research in robotics. MDSE concentrates more on metamodeling, separations of concerns, model transformations, and code generation, while FM focuses more at the high-level specification and reasoning that result in provably correct robotic systems. However, a reunification is needed: quality, reliable software for robotic systems created using MDSE will facilitate the abstraction and modeling of robotic systems, which further promotes the adoption of FM in constructing robotic systems with a high degree of autonomy.</p>
-			<p></p>
+	<div class="section1 s2">
+		<div class="inner ">
+		 	<p></p>
 			<h2>Goals</h2>
-			<p style="text-align:justify">This workshop aims to advance the research and development of theory, tools and applications of FM and MDSE to robotics and automation. To this end, the concrete goals of this workshop, are three-fold:
-<p></p>
+			This workshop aims to advance the research and development of theory, tools and applications of FM and
+MDSE to robotics and automation. To this end, the concrete goals are three-fold:
 			<ul class="d">			
 			<li>Presenting new theories and tools in FM and MDSE, which can be readily used in the control and
 verification of robotic systems.</li>
@@ -90,273 +76,35 @@ verification of robotic systems.</li>
 their application to robotic systems.</li>
 			</ul>
 
-			
 		</div>
 	</div>
 
 
 
-	<div class="section s3">
+	<div class="section1 s7">
 		<div class="inner">
-			<h1>Program Committee</h1>
-			<ul class="c">			
-			<li>Prof. Armando Tacchella, UniGe, Italy</li>
-			<li>Nico Hochgeschwender, Bonn-Rhein-Sieg University of Applied Sciences, Germany</li>
-			<li>Lorenzo Natale, iCubFacility, Italian Institute of Technology, Genova,Italy</li>
-			<li>Martin Saerbeck, AStar, Singapore </li>
-			</ul>
-
-		</div>
-	</div>
-
-	<div class="section s4">
-		<div class="inner">
-			<h1>Speakers</h1>
+			<h2>Organizers</h2>
 
 			<ul class="c">
-			<li>Prof. Alessandro Abate, University of Oxford, UK</li>
-			<li>Prof. Erika Abraham, RWTH Aachen University, Germany</li>
-			<li>Prof. Calin Belta, Boston University, USA</li>
-			<li>Prof. Davide Brugali, University of Bergamo, Italy</li>
-			<li>Prof. Herman Bruyninckx (Not Confirmed), KU Leuven, Belgium</li>
-			<li>Prof. Rudiger Ehlers (Not Confirmed), University of Bremen, Germany</li>
-			<li>Prof. Goran Frehse, Universite Joseph Fourier, France</li>
-			<li>Prof. Felix Ingrand, LAAS, France</li>
-			<li>Prof. Joost-Pieter Katoen, RWTH Aachen University, Germany</li>
-			<li>Prof. Hadas Kress-Gazit, Cornell University, USA</li>
-			<li>Prof. Jun Liu,University of Sheffield, UK</li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="section s5">
-		<div class="inner">
-			<h1>Schedule</h1>
-		<style>
-		td {
-		 border: solid 1px lightgrey;
-		 width: 1000px
-		}
-		</style>
-		<h4> Day -I</h4>
-		<table border ="1" bordercolor=black>
-		<tbody>
-		<tr>
-		<td>9:00-9:15am</td>
-		<td>
-		<p>Welcome and overview
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>9:15-10:15am</td>
-		<td>
-		<p>Session: Robotics and control
-		</p>
-		<p>
-		Description here.
-		</p>
-
-		</td>
-		</tr>
-		<tr>
-		<td>10:15-10:30am</td>
-		<td>
-		<p>Discussion
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>10:30-10:35am</td>
-		<td>
-		<p>Coffee break</p>
-		</td>
-
-		</tr>
-		<tr>
-		<td>10:45-11:45</td>
-		<td>
-		<p>Session: Formal methods
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>11:45-12pm</td>
-		<td>
-		<p>Discussion
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>12-1:30pm</td>
-		<td>
-		<p>Lunch break
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>1:30-2:30pm</td>
-		<td>
-		<p>Industrial spotlight
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>2:30-3:30pm</td>
-		<td>
-		<p>Panel discussion
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>3:30-4pm</td>
-		<td>
-		<p>Coffee break
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>4-5:30pm</td>
-		<td>
-		<p>Poster session
-		</p>
-		</td>
-		</tr>
-		</tbody>
-		</table>
-
-		<p></p>
-
-		<h4> Day -II</h4>
-		<table border ="1" bordercolor=black>
-		<tbody>
-		<tr>
-		<td>9:00-9:15am</td>
-		<td>
-		<p>Introduction
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>9:15-10:00am</td>
-		<td>
-		<p>Keynote Speaker
-		</p>
-		<p>
-		Description here.
-		</p>
-
-		</td>
-		</tr>
-		<tr>
-		<td>10:00-10:30am</td>
-		<td>
-		<p>Session: MDSE in Robotics
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>10:30-10:45am</td>
-		<td>
-		<p>Coffee break</p>
-		</td>
-
-		</tr>
-		<tr>
-		<td>10:45-11:30</td>
-		<td>
-		<p>Invited Speaker
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>11:30-12:30pm</td>
-		<td>
-		<p>Session: Tools and Applications
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>12:30-2pm</td>
-		<td>
-		<p>Lunch break
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>2-2:45pm</td>
-		<td>
-		<p>Invited Speaker
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>2:45-3:45pm</td>
-		<td>
-		<p>Demonstration - Nao Robot
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>3:45-4pm</td>
-		<td>
-		<p>Coffee break
-		</p>
-		</td>
-		</tr>
-		<tr>
-		<td>4-5:00pm</td>
-		<td>
-		<p>Panel Discussion
-		</p>
-		</td>
-		</tr>
-		</tbody>
-		</table>
-
-		<p><a href="#sTop" class="intLink">top</a></p>
-
-		</div>
-	</div>
-
-	
-
-	<div class="section s6">
-		<div class="inner">
-			<h1>Submission</h1>
-			<p style="text-align:justify">Submissions should not exceed 6 pages (full papers), 3 pages (short papers) formatted according to the IEEE conference paper guidelines, and should be submitted as Portable Document Format (PDF) files using the Easychair submission site: <a href="https://easychair.org/conferences/?conf=fmmdse2015" style="color: rgb(0,255,0);text-decoration: none"><font color="FF00CC"> https://easychair.org/conferences/?conf=fmmdse2015</font></a> . Contributions will be reviewed for quality and relevance to the workshop's theme. Submission of preliminary results would also be considered.</p>	
-			<p></p>
-			<p style="text-align:justify">Authors of the accepted papers will be asked to submit their camera-ready version along with a poster. All accepted papers will be presented during the poster session. A subset of the selected accepted papers will be invited for a 15 minute oral presentation.</p>
-<p></p>
-			<p style="text-align:justify">To foster dialogue and collaboration between researchers, this workshop will be designed to be as interactive as possible, with organized discussions and informal breakout sessions across both days.  As such, a large part of this effort is to bring together a community of robotic researchers who are working in the area of formal methods and MDSE. Ample time will be provided for networking and informal discussions.</p>
-		<p></p>
-			<h2>Important Dates</h2>
-			<ul class="c">
-			<li>Submission Deadline: May 1, 2015</li>
-			<li>Acceptance Notifications: May 15, 2015</li>
-			<li>Camera Ready Submission Deadline: June 1, 2015</li>
-			<li>Workshop Date: July 16-17, 2015  </li>
-			</ul>
-	
-		</div>
-	</div>
-
-	<div class="section s7">
-		<div class="inner">
-			<h1>Organizers</h1>
-
-			<ul class="c">
+			<li>Jie Fu, UPenn, USA</li>
 			<li>Benjamin Johnson, Naval Research Laboratory, USA</li>
-			<li>Vasumathi Raman, Caltech, USA</li>
-			<li>Jie Fu,UPenn, USA</li>
+			<li>Vasu Raman, Caltech, USA</li>
 			<li>Shashank Pathak, IIT, Italy</li>
 			<li>Arunkumar Ramaswamy, ENSTA-ParisTech, France</li>
 			<li>Prof. Bruno Monsuez, ENSTA-ParisTech, France</li>
 			<li>Prof. Adriana Tapus, ENSTA-ParisTech, France</li>
 			
 			</ul>
+
+		
 		</div>
 	</div>
+
+	<h4>Contact Information</h4>
+	<!--<pre>For general information, please contact:
+
+	  Someone@somewhere.edu
+	</pre>-->
 
 	
 </div>
