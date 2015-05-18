@@ -38,7 +38,10 @@ a {
 	color: #FF0066;
 }
 
-
+abs {
+	font-size: 15px;
+	line-height: 0.5;
+}
 
 .clear {
 	clear: both;
@@ -184,6 +187,9 @@ a {
 ul.b {list-style-type: disc;}
 ul.c {list-style-type: square; margin : 0 20px; padding : 0;}
 ul.d {list-style-type: square;margin-left: 2.5em; padding-left: 0;}
+
+#css
+hr { width:100%; height:1px; background: #313131 }
 
 
 
