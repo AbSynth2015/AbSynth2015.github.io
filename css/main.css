@@ -3,10 +3,9 @@
 
 body {
 	font-family:  Arial, Helvetica, Verdana, sans-serif;
-	color: #e5e5e5;
+	color: #030303;
 	font-size: 12px;
-	background:#bfbfbf;
-
+	background:#f9f9f9;
 	
 }
 
@@ -35,7 +34,7 @@ p {
 }
 
 a {
-	color: #FF0066;
+	color: #000;
 }
 
 abs {
@@ -143,45 +142,18 @@ abs {
 }
 
 .s1 {
-	background:#184764;
-	color:#fff;
+	background:#f0f0f0;
+	color:#000;
 }
 
 
 .s2 {
-    background: #313131;
+    background: #fff;
 }
 
 
 .s2 a {
 	color: #fff;
-}
-
-.s3 {
-	background: #1b83b3;
-	height: 200px;
-}
-
-
-.s4 {
-	background: #5aa3c4;
-	height: 400px;
-}
-
-
-
-.s5 {
-	background: #bce1f1;
-	color: #3d3d3d;
-}
-
-.s6 {
-	background: #161616;
-	height: 500px;
-}
-
-.s7 {
-	background: #15688f;
 }
 
 
