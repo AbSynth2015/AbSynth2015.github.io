@@ -139,8 +139,13 @@ This talk presents a multitude of ways in which reactive synthesis can help to w
 
 <spk>
 <li><b><a href="https://sites.google.com/site/frehseg/">Prof. Goran Frehse</a></b>, Universite Joseph Fourier, France</li>
-<p>Title: TBD </p>
-<abs>Abstract: </abs>
+<p>Title: Reachability Analysis of Piecewise Affine Systems Using Support Functions </p>
+<abs>Abstract:
+<img src="images/goran.jpg" alt="Goran Frehse" style="margin:0px 10px" height="150px"  width="100px" align="left">
+In model-based design, a mathematical model of a plant is used to construct a controller that achieves a certain performance (e.g., rise or settling time) while satisfying certain critical "safety" constraints (e.g., saturation, overflow). It can be hard to verify that performance and safety requirements are met, in particular when the controlled system has complex dynamics (mode switching) or when the operating conditions are uncertain (varying initial conditions, disturbances, parameter variations). Techniques such as Monte-Carlo and corner case simulation help to gain confidence in the design, but require a large number of simulation runs and generally do not provide conservative answers.
+Symbolic simulation, also referred to as reachability analysis, can complement such trajectory-based analysis techniques. Instead of computing a sequence of points on a single trajectory, we compute a sequence of sets that covers all possible trajectories of the system. Computing with sets allows us to use conservative over-approximations and take into account various kinds of nondeterminism in the plant and the controller. While computing with sets is inherently costly and has long been restricted to toy problems, recent advances based on implicit ("lazy") set representations have made symbolic simulation applicable to linear ODEs with hundreds of variables.
+In this talk, we present the symbolic simulation algorithm of our verification platform SpaceEx. We illustrate its performance with examples from various application domains and highlight some of the mathematical tricks that make this approach both precise and scalable.
+</abs>
 <div class="block_1"></div> <hr />
 </spk>
 
