@@ -70,7 +70,7 @@ The formal verification and synthesis problems have been shown to be undecidable
 <li><b><a href="http://robotics.unibg.it/people/brugali.html">Prof. Davide Brugali</a></b>, University of Bergamo, Italy</li>
 			<p>Title: Model-Driven Engineering for Robotic Software Product Lines </p>
 			<abs>Abstract: 
-<img src="images/brugali.jpg" alt="Calin Belta" style="margin:0px 10px" height="150px"  width="100px" align="left">
+<img src="images/brugali.jpg" alt="Davide Brugali" style="margin:0px 10px" height="150px"  width="100px" align="left">
 The cost of creating new robotics products is significantly related to the complexity of developing software
 control systems that are 
 flexible enough to easily accommodate
@@ -99,8 +99,14 @@ MDE tools for modeling and configuring robotic SPL. </abs>
 
 <spk>
 <li><b><a href="http://www.cs.ox.ac.uk/people/alessandro.abate/home.html">Prof. Alessandro Abate</a></b>, University of Oxford, UK</li>
-<p>Title: TBD </p>
-<abs>Abstract: </abs>
+<p>Title: Data-driven and model-based quantitative verification and correct-by-design synthesis </p>
+<abs>Abstract: 
+<img src="images/abate.jpg" alt="Alessandro Abate" style="margin:0px 10px" height="150px"  width="100px" align="left">
+I discuss a new and formal, measurement-driven and model-based automated verification and synthesis technique, to be applied on quantitative properties over systems with partly unknown dynamics. I explicitly focus on physical systems (with spatially continuous variables, possibly noisy), driven by external inputs and accessed under noisy measurements. I formulate this new setup as a data-driven Bayesian model inference problem, formally embedded within a model-based verification procedure. 
+
+While emphasising the generality of the approach over a number of diverse model classes, this talk zooms in on systems represented via stochastic hybrid models, which are probabilistic models with heterogeneous dynamics (continuous/discrete, i.e. hybrid, as well as nonlinear). 
+With focus on the model-based verification procedure, I provide the characterisation of general temporal specifications based on Bellman's dynamics programming. The computation of such properties and the synthesis of related control architectures optimising the properties of interest is attained via the development of abstraction techniques based on quantitative approximations. This abstraction approach employs techniques and concepts from the formal verification area, such as that of (approximate probabilistic) bisimulation, over models and problems known in the field of systems and control. 
+</abs>
 </spk>
 <div class="block_1"></div> <hr />
 
@@ -110,7 +116,7 @@ MDE tools for modeling and configuring robotic SPL. </abs>
 <p>Title:
 A Greedy Approach for the Efficient Repair of Stochastic Controller Models</p>
 <abs>Abstract:
-<img src="images/abraham.jpg" alt="Calin Belta" style="margin:0px 10px" height="150px"  width="100px" align="left">
+<img src="images/abraham.jpg" alt="Erika Abraham" style="margin:0px 10px" height="150px"  width="100px" align="left">
 Probabilistic modelling languages are popular formalisms to model systems with randomized components in their behaviour. Probabilistic models play an important role also in robotics, for example when modelling controllers.
 
 A great advantage of formal models is that they allow the application of formal methods for their analysis. For discrete-time probabilistic models there are efficient methods to check whether they satisfy certain properties. If a property is refuted, available techniques can be used to explain the failure in form of a counterexample.
@@ -140,7 +146,7 @@ This talk presents a multitude of ways in which reactive synthesis can help to w
 <spk>
 <li><b><a href="https://sites.google.com/site/frehseg/">Prof. Goran Frehse</a></b>, Universite Joseph Fourier, France</li>
 <p>Title: Reachability Analysis of Piecewise Affine Systems Using Support Functions </p>
-<abs>Abstract:
+<abs>Abstract: 
 <img src="images/frehse.jpg" alt="Goran Frehse" style="margin:0px 10px" height="150px"  width="100px" align="left">
 In model-based design, a mathematical model of a plant is used to construct a controller that achieves a certain performance (e.g., rise or settling time) while satisfying certain critical "safety" constraints (e.g., saturation, overflow). It can be hard to verify that performance and safety requirements are met, in particular when the controlled system has complex dynamics (mode switching) or when the operating conditions are uncertain (varying initial conditions, disturbances, parameter variations). Techniques such as Monte-Carlo and corner case simulation help to gain confidence in the design, but require a large number of simulation runs and generally do not provide conservative answers.
 Symbolic simulation, also referred to as reachability analysis, can complement such trajectory-based analysis techniques. Instead of computing a sequence of points on a single trajectory, we compute a sequence of sets that covers all possible trajectories of the system. Computing with sets allows us to use conservative over-approximations and take into account various kinds of nondeterminism in the plant and the controller. While computing with sets is inherently costly and has long been restricted to toy problems, recent advances based on implicit ("lazy") set representations have made symbolic simulation applicable to linear ODEs with hundreds of variables.
@@ -160,7 +166,7 @@ In this talk, we present the symbolic simulation algorithm of our verification p
 <li><b><a href="http://www-i2.informatik.rwth-aachen.de/~katoen/">Prof. Joost-Pieter Katoen</a></b>, RWTH Aachen University, Germany</li>
 <p>Title:  Efficient Parameter Synthesis in Probabilistic Models</p>
 <abs>Abstract: 
-<img src="images/katoen.jpg" alt="Calin Belta" style="margin:0px 10px" height="150px"  width="100px" align="left">
+<img src="images/katoen.jpg" alt="J-P Katoen" style="margin:0px 10px" height="150px"  width="100px" align="left">
 We present several techniques for analyzing parametric Markov chains (pMCs), chains in which the transitions are labeled with polynomials over in the set of model variables.  The core is to compute a rational function (i.e., a fraction of two polynomials in the model parameters) for reachability and expected reward objectives.
 
 Our technique outperforms state-of-the-art tools and supports computing conditional probabilities over pMCs.  This is supplemented by support for incremental automatic parameter synthesis (using SMT techniques) to determine "safe" and "unsafe" regions of the parameter space. All values in these regions give rise to instantiated MCs satisfying or violating the (conditional) probability or expected reward objective.
