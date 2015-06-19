@@ -159,20 +159,20 @@ In this talk, we present the symbolic simulation algorithm of our verification p
 <li><b><a href="http://homepages.laas.fr/felix/">Prof. Felix Ingrand</a></b>, LAAS, France</li>
 <p>Title: Validating and verifying robot functional components </p>
 <abs> 
-<p>Most robotics systems use some framework to deploy the functional components in charge of sensors (camera, laser range finder, etc), effectors (wheels, pan and tilt unit, arms, etc), as well as data processing (stereo correlation, map building, SLAM, motion planning, etc). We consider that this set of components constitute the functional layer of the robot. The decisional layer, in charge of planning, acting, monitoring, etc usually uses other types of framework. If one considers validating and verifying formal properties on these different software, the decisional components are often model based, which model can often be checked and verified. As for the functional components, most development frameworks and middleware do not consider validation and verification, despite the increasing need to robustify and certify robotics systems (e.g., autonomous cars, service robots, coworker robots).
-</p>
-<p>For the last 30 years, the LAAS robotic group has been using the GenoM framework to develop the functional components on its various robots. A GenoM module is specified with: tasks (periodic or aperiodic); services which are associated to tasks; and ports (which allow modules to share data between each others). Each service is specified with an automata, with each state calling a particular elementary C or C++ code (codel), whose returned value when executing specifies the next state. Temporal information are specified for periodic tasks (period) and also for codels (WCET).
-</p>
-<p>
+Most robotics systems use some framework to deploy the functional components in charge of sensors (camera, laser range finder, etc), effectors (wheels, pan and tilt unit, arms, etc), as well as data processing (stereo correlation, map building, SLAM, motion planning, etc). We consider that this set of components constitute the functional layer of the robot. The decisional layer, in charge of planning, acting, monitoring, etc usually uses other types of framework. If one considers validating and verifying formal properties on these different software, the decisional components are often model based, which model can often be checked and verified. As for the functional components, most development frameworks and middleware do not consider validation and verification, despite the increasing need to robustify and certify robotics systems (e.g., autonomous cars, service robots, coworker robots).
+<p></p>
+For the last 30 years, the LAAS robotic group has been using the GenoM framework to develop the functional components on its various robots. A GenoM module is specified with: tasks (periodic or aperiodic); services which are associated to tasks; and ports (which allow modules to share data between each others). Each service is specified with an automata, with each state calling a particular elementary C or C++ code (codel), whose returned value when executing specifies the next state. Temporal information are specified for periodic tasks (period) and also for codels (WCET).
+<p></p>
+
 The latest version of GenoM (GenoM3) is template based, and from a particular GenoM specification can generate a number of programs or libraries:
         • the module itself for different middleware (e.g. Pocolibs, ROS-Com, Orocos), linked with the associated codels library,
         • client libraries (e.g. c-client, OpenPRS client, TCL client)
-</p>
-<p>
+<p></p>
+
 We are also using this template mechanism to also produce formal models of the functional modules. We have identified two formal frameworks for which we can automatically synthesize a model.
 
         • Fiacre/TINA is a framework developed at LAAS/VerTICS to model time constrained distributed/concurrent systems. The underlying formalism is Fiacre, a high level notation targeting Time Petri nets enriched with priorities and data processing. One can verify expected properties, with model checking, expressed in temporal logics (LTL) or Fiacre property language (realtime property patterns). Such properties can be checked over one particular modules or better over a set of concurrently executing modules.
-</p>
+<p></p>
 </abs>
 <div class="block_1"></div> <hr />
 </spk>
